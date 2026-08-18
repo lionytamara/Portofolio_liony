@@ -20,8 +20,9 @@ export const HeroSection: React.FC = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = personalInfo.resumeUrl || '/Portofolio_liony/CV_Liony Tamara Lewinsky.pdf';
-    link.download = 'CV_Liony Tamara Lewinsky.pdf';
+    // PERBAIKAN: Mengganti spasi menjadi garis bawah (_) pada nama file
+    link.href = personalInfo.resumeUrl || '/Portofolio_liony/CV_Liony_Tamara_Lewinsky.pdf';
+    link.download = 'CV_Liony_Tamara_Lewinsky.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
