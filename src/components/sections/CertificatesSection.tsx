@@ -6,7 +6,8 @@ import { Badge } from '../ui/Badge';
 import { Modal } from '../ui/Modal';
 import { certificatesData } from '../../data/portfolioData';
 import { CertificateItem } from '../../types/portfolio';
-import { Award, ExternalLink, Calendar, ShieldCheck, CheckCircle2 } from 'lucide-react';
+// PERBAIKAN: Menghapus CheckCircle2 karena tidak digunakan
+import { Award, ExternalLink, Calendar, ShieldCheck } from 'lucide-react';
 
 export const CertificatesSection: React.FC = () => {
   const [selectedCert, setSelectedCert] = useState<CertificateItem | null>(null);
