@@ -303,8 +303,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'May 2026',
     credentialId: 'HACKTIV8-AI-2026',
     credentialUrl: 'https://hacktiv8.com',
-    // PERBAIKAN: Path disesuaikan dengan nama file baru
-    image: 'certificates/python_2.jpg',
+    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
+    image: '/Portofolio_liony/certificates/python_2.jpg',
     skills: [
       'Artificial Intelligence (AI) Awareness',
       'Generative AI',
@@ -322,8 +322,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Oct 2025',
     credentialId: 'undefined',
     credentialUrl: 'https://digitalent.kominfo.go.id/',
-    // PERBAIKAN: Path disesuaikan dengan nama file baru
-    image: 'certificates/Sertifikat_Data_Scientist.jpg',
+    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
+    image: '/Portofolio_liony/certificates/Sertifikat_Data_Scientist.jpg',
     skills: [
       'Python (Programming Language)',
       'Data Analysis',
@@ -339,8 +339,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Sep 2024',
     credentialId: 'KAG-PY-2024',
     credentialUrl: 'https://www.kaggle.com',
-    // PERBAIKAN: Path disesuaikan dengan nama file baru
-    image: 'certificates/python_1.jpg',
+    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
+    image: '/Portofolio_liony/certificates/python_1.jpg',
     skills: ['Python (Programming Language)', 'Problem-Solving', 'Algorithms'],
   },
   {
@@ -350,12 +350,11 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Jan 2024',
     credentialId: 'SANBER-UX-2024',
     credentialUrl: 'https://sanbercode.com',
-    // PERBAIKAN: Path disesuaikan dengan nama file baru
-    image: 'certificates/Sertifikat_Intensif_UI_UX.jpg',
+    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
+    image: '/Portofolio_liony/certificates/Sertifikat_Intensif_UI_UX.jpg',
     skills: ['UI/UX Design', 'Figma', 'Wireframing', 'Prototyping', 'Usability Testing'],
   },
 ];
-
 export const achievementsData: AchievementItem[] = [
   {
     id: 'ach-1',
