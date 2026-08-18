@@ -322,8 +322,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Oct 2025',
     credentialId: 'undefined',
     credentialUrl: 'https://digitalent.kominfo.go.id/',
-    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
-    image: '/Portofolio_liony/certificates/Sertifikat_Data_Scientist.jpg',
+    // PERBAIKAN PENTING: Disesuaikan dengan nama file yang baru di-upload (dengan spasi)
+    image: '/Portofolio_liony/certificates/Sertifikat Data Scientist.jpg',
     skills: [
       'Python (Programming Language)',
       'Data Analysis',
@@ -343,15 +343,15 @@ export const certificatesData: CertificateItem[] = [
     image: '/Portofolio_liony/certificates/python_1.jpg',
     skills: ['Python (Programming Language)', 'Problem-Solving', 'Algorithms'],
   },
-  {
+{
     id: 'cert-4',
     title: 'Intensive UI/UX Design Certificate',
     issuer: 'SanberCode',
     issueDate: 'Jan 2024',
     credentialId: 'SANBER-UX-2024',
     credentialUrl: 'https://sanbercode.com',
-    // PASTIKAN NAMA FILE SAMA PERSIS DENGAN YANG ADA DI GITHUB
-    image: '/Portofolio_liony/certificates/Sertifikat_Intensif_UI_UX.jpg',
+    // Sesuai dengan log GitHub Anda
+    image: '/Portofolio_liony/certificates/Sertifikat Intensif_UI_UX.jpg',
     skills: ['UI/UX Design', 'Figma', 'Wireframing', 'Prototyping', 'Usability Testing'],
   },
 ];
