@@ -18,11 +18,15 @@ import { useTypingEffect } from '../../hooks/useTypingEffect';
 export const HeroSection: React.FC = () => {
   const typedTitle = useTypingEffect(personalInfo.titles, 80, 40, 2000);
 
-  const handleDownloadCV = () => {
+const handleDownloadCV = () => {
     const link = document.createElement('a');
-    // PERBAIKAN: Mengganti spasi menjadi garis bawah (_) pada nama file
-    link.href = personalInfo.resumeUrl || '/Portofolio_liony/CV_Liony_Tamara_Lewinsky.pdf';
-    link.download = 'CV_Liony_Tamara_Lewinsky.pdf';
+    
+    // Ini adalah lokasi file fisik di server (TIDAK BOLEH ada spasi)
+    link.href = personalInfo.resumeUrl || '/Portofolio_liony/Liony_Tamara_Lewinsky_-_CV.pdf';
+    
+    // Ini adalah nama file yang akan muncul di komputer orang yang mendownload (BOLEH ada spasi)
+    link.download = 'Liony Tamara Lewinsky - CV.pdf'; 
+    
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
