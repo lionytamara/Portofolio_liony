@@ -22,12 +22,10 @@ export const personalInfo: PersonalInfo = {
   ],
   bio: 'A driven Information Systems graduate from Del Institute of Technology with a strong interest in Data Analytics, Business Analysis, Business Development, and Product Analysis. Passionate about leveraging data, understanding business needs, and developing strategic solutions that create value for users and support business growth.',
   shortBio: 'Specializing in Product Analysis, Business Analysis, Data Visualization (SQL, Power BI, Excel), UI/UX Design, and Agile Project Management.',
-  
-  // PERBAIKAN: Ditambah /Portofolio_liony di depan path gambar
+
   avatarUrl: '/Portofolio_liony/DSC_6229.JPG.jpeg',
   
-  // PERBAIKAN: Ditambah /Portofolio_liony dan spasi diganti garis bawah (_)
-  resumeUrl: '/Portofolio_liony/CV_Liony_Tamara_Lewinsky.pdf',
+  resumeUrl: '/Portofolio_liony/Liony_Tamara_Lewinsky_-_CV.pdf',
   
   email: 'lionytamaralewinsky@gmail.com',
   phone: '+62 822-6798-2081',
