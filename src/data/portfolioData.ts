@@ -303,7 +303,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'May 2026',
     credentialId: 'HACKTIV8-AI-2026',
     credentialUrl: 'https://hacktiv8.com',
-    image: '/certificates/python (2).jpg',
+    // PERBAIKAN: Path disesuaikan dengan nama file baru
+    image: '/Portofolio_liony/certificates/python_2.jpg',
     skills: [
       'Artificial Intelligence (AI) Awareness',
       'Generative AI',
@@ -321,7 +322,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Oct 2025',
     credentialId: 'undefined',
     credentialUrl: 'https://digitalent.kominfo.go.id/',
-    image: '/certificates/Sertifikat_LIONY TAMARA LEWINSKY_Associate Data Scientist_page-0001.jpg',
+    // PERBAIKAN: Path disesuaikan dengan nama file baru
+    image: '/Portofolio_liony/certificates/Sertifikat_Data_Scientist.jpg',
     skills: [
       'Python (Programming Language)',
       'Data Analysis',
@@ -337,7 +339,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Sep 2024',
     credentialId: 'KAG-PY-2024',
     credentialUrl: 'https://www.kaggle.com',
-    image: '/certificates/python (1).jpg',
+    // PERBAIKAN: Path disesuaikan dengan nama file baru
+    image: '/Portofolio_liony/certificates/python_1.jpg',
     skills: ['Python (Programming Language)', 'Problem-Solving', 'Algorithms'],
   },
   {
@@ -347,7 +350,8 @@ export const certificatesData: CertificateItem[] = [
     issueDate: 'Jan 2024',
     credentialId: 'SANBER-UX-2024',
     credentialUrl: 'https://sanbercode.com',
-    image: '/certificates/Sertifikat Intensif_UI_UX Design_Liony tamara Lewinsky (1)_page-0001.jpg',
+    // PERBAIKAN: Path disesuaikan dengan nama file baru
+    image: '/Portofolio_liony/certificates/Sertifikat_Intensif_UI_UX.jpg',
     skills: ['UI/UX Design', 'Figma', 'Wireframing', 'Prototyping', 'Usability Testing'],
   },
 ];
