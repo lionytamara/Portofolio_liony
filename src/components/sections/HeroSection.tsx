@@ -20,14 +20,9 @@ export const HeroSection: React.FC = () => {
 
 const handleDownloadCV = () => {
     const link = document.createElement('a');
-    
-    // Ini adalah lokasi file fisik di server (TIDAK BOLEH ada spasi)
     link.href = personalInfo.resumeUrl || '/Portofolio_liony/Liony_Tamara_Lewinsky_-_CV.pdf';
-    
-    // Ini adalah nama file yang akan muncul di komputer orang yang mendownload (BOLEH ada spasi)
     link.download = 'Liony Tamara Lewinsky - CV.pdf'; 
-    
-    link.target = '_blank';
+        link.target = '_blank';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
