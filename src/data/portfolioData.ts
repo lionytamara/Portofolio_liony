@@ -25,7 +25,7 @@ export const personalInfo: PersonalInfo = {
 
   avatarUrl: '/Portofolio_liony/DSC_6229.JPG.jpeg',
   
-  resumeUrl: '/Portofolio_liony/Liony_Tamara_Lewinsky_-_CV.pdf',
+  resumeUrl: '/Portofolio_liony/Liony Tamara Lewinsky - CV.pdf',
   
   email: 'lionytamaralewinsky@gmail.com',
   phone: '+62 822-6798-2081',
